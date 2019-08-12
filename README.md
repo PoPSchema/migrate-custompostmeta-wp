@@ -20,6 +20,8 @@ Via Composer
 $ composer require getpop/migrate-postmeta-wp
 ```
 
+([PoP](https://github.com/leoloso/PoP) must be installed)
+
 <!--
 ## Usage
 
