@@ -6,7 +6,7 @@ Description: Implementation of WordPress functions for PoP CMS
 Plugin URI: https://getpop.org/
 Author: Leonardo Losoviz
 */
-namespace PoP\PostMeta\WP;
+namespace PoP\CustomPostMeta\WP;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
 //-------------------------------------------------------------------------------------
@@ -21,10 +21,10 @@ class Plugin
     {
         include_once 'validation.php';
         HooksAPIFacade::getInstance()->addFilter(
-            'PoP_PostMeta_Validation:provider-validation-class',
+            'PoP_CustomPostMeta_Validation:provider-validation-class',
             array($this, 'getProviderValidationClass')
         );
-        
+
         // Priority: mid section, after PoP CMS Model WP
         HooksAPIFacade::getInstance()->addAction('plugins_loaded', array($this, 'init'), 255);
     }
@@ -32,7 +32,7 @@ class Plugin
     {
         return Validation::class;
     }
-    
+
     public function init()
     {
         if ($this->validate()) {

@@ -1,5 +1,5 @@
 <?php
-namespace PoP\PostMeta\WP;
+namespace PoP\CustomPostMeta\WP;
 use PoP\Translation\Facades\TranslationAPIFacade;
 use PoP\Hooks\Facades\HooksAPIFacade;
 

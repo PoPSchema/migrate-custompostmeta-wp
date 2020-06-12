@@ -1,12 +1,12 @@
 {
-    "name": "getpop/migrate-postmeta-wp",
+    "name": "getpop/migrate-custompostmeta-wp",
     "type": "library",
-    "description": "(Temporary package) Migrate code to package https://github.com/getpop/postmeta-wp. Target package description: Implementation for WordPress of contracts from package \"Post Meta\"",
+    "description": "(Temporary package) Migrate code to package https://github.com/getpop/custompostmeta-wp. Target package description: Implementation for WordPress of contracts from package \"Post Meta\"",
     "keywords": [
         "PoP",
-        "postmeta-wp"
+        "custompostmeta-wp"
     ],
-    "homepage": "https://github.com/PoPSchema/migrate-postmeta-wp",
+    "homepage": "https://github.com/PoPSchema/migrate-custompostmeta-wp",
     "license": "MIT",
     "authors": [
         {
