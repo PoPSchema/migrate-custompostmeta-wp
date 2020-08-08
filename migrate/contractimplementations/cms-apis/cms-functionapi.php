@@ -1,7 +1,7 @@
 <?php
-namespace PoP\CustomPostMeta\WP;
+namespace PoPSchema\CustomPostMeta\WP;
 
-class FunctionAPI extends \PoP\CustomPostMeta\FunctionAPI_Base
+class FunctionAPI extends \PoPSchema\CustomPostMeta\FunctionAPI_Base
 {
     public function getMetaKey($meta_key)
     {
